@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CEP</title>
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <!-- MODAL -->
+    
+    <div class="modal fade" id="minha_caixa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog " >
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Busque pela loja mais próxima</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form id="formulario">
+            <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">CEP:</label>
+                <input type="text" class="form-control" id="cep" maxlength="9" placeholder="00000-000" required>
+            </div>          
+            </form>
+        </div>
+        <div class="modal-footer">            
+            <button type="button" id="meu-btn" class="btn btn-primary">Buscar</button>
+        </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- //MODAL -->
+
+
+    <script src="src/js/bootstrap.bundle.min.js"></script>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
